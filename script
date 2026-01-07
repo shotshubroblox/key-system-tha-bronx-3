@@ -1,0 +1,133 @@
+local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-Softworks/Luna-Interface-Suite/refs/heads/main/source.lua", true))()
+local Window = Luna:CreateWindow({
+	Name = "SHOTS HUB IS NOT RESPONSIBLE FOR ANY BAN(S)", -- This Is Title Of Your Window
+	Subtitle = nil, -- A Gray Subtitle next To the main title.
+	LogoID = "82795327169782", -- The Asset ID of your logo. Set to nil if you do not have a logo for Luna to use.
+	LoadingEnabled = true, -- Whether to enable the loading animation. Set to false if you do not want the loading screen or have your own custom one.
+	LoadingTitle = "Shots Hub", -- Header for loading screen
+	LoadingSubtitle = "by Shots Dunkx", -- Subtitle for loading screen
+
+	ConfigSettings = {
+		RootFolder = nil, -- The Root Folder Is Only If You Have A Hub With Multiple Game Scripts and u may remove it. DO NOT ADD A SLASH
+		ConfigFolder = "Shots Hub" -- The Name Of The Folder Where Luna Will Store Configs For This Script. DO NOT ADD A SLASH
+	},
+
+	KeySystem = false, -- As Of Beta 6, Luna Has officially Implemented A Key System!
+	KeySettings = {
+		Title = "Shots Hub Key",
+		Subtitle = "Key System",
+		Note = "Join Discord For Key discord.gg/e2eAYFuVrk",
+		SaveInRoot = false, -- Enabling will save the key in your RootFolder (YOU MUST HAVE ONE BEFORE ENABLING THIS OPTION)
+		SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+		Key = {"Shotshubdiscord"}, -- List of keys that will be accepted by the system, please use a system like Pelican or Luarmor that provide key strings based on your HWID since putting a simple string is very easy to bypass
+		SecondAction = {
+			Enabled = false, -- Set to false if you do not want a second action,
+			Type = "Discord", -- Link / Discord.
+			Parameter = "e2eAYFuVrk" -- If Type is Discord, then put your invite link (DO NOT PUT DISCORD.GG/). Else, put the full link of your key system here.
+		}
+	}
+})
+local Tab = Window:CreateTab({
+	Name = "Load Scripts",
+	Icon = "view_in_ar",
+	ImageSource = "Material",
+	ShowTitle = true
+})
+local Button = Tab:CreateButton({
+	Name = "Tha Bronx 3",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet('https://pastefy.app/DJybUSvu/raw'))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Arsenal",
+	Description = nil, 
+    	Callback = function()
+     loadstring(game:HttpGetAsync("https://pastefy.app/gTW59FG8/raw"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "MM2 Keyed",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "MM2 Keyless",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Murderers Vs Sheriffs Duels",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://pastefy.app/6epVhfng/raw"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Chat Bypasser set language to Қазақ Тілі",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/AnnaRoblox/AnnaBypasser/refs/heads/main/AnnaBypasser.lua",true))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Basketball Legends",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/IAmJamal10/Basketball/refs/heads/main/Legends"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Steal A Brainrot",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Hoopz",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://pastefy.app/D9w97Tvm/raw"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Infinite Yield (Admin Commands)",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Central Streets",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ae000d0d75f69a423da7c29a363cbfe7.lua"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Fisch (sadly keyed but good)",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Skibidiking123/Fisch1/refs/heads/main/FischMain"))() 
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Grow A Garden",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f66737512e1b9db3a3e41dd9f6a5aa91.lua"))()
+    	end
+})
+local Button = Tab:CreateButton({
+	Name = "Death Ball",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/ExploiterDeathBall/AutoParry/refs/heads/main/AutoParryDeathBall'))()
+    	end
+})
