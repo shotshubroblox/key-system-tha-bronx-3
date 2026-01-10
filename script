@@ -131,3 +131,10 @@ local Button = Tab:CreateButton({
       loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0767c335e3a0f0c1650d73b96bff8b7b.lua"))() 
     	end
 })
+local Button = Tab:CreateButton({
+	Name = "COPY DISCORD",
+	Description = nil, 
+    	Callback = function()
+      setclipboard("https://discord.gg/egvCXKZRJH")
+    	end
+})
