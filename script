@@ -37,7 +37,7 @@ local Button = Tab:CreateButton({
 	Name = "Tha Bronx 3",
 	Description = nil, 
     	Callback = function()
-      loadstring(game:HttpGet('https://pastefy.app/POe6xV8K/raw'))()
+      loadstring(game:HttpGet('https://pastefy.app/3klu5Yru/raw'))()
     	end
 })
 local Button = Tab:CreateButton({
