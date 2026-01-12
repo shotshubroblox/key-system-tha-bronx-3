@@ -139,6 +139,13 @@ local Button = Tab:CreateButton({
     	end
 })
 local Button = Tab:CreateButton({
+	Name = "Football Fusion 2",
+	Description = nil, 
+    	Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/9b115b7424840d16dd02d2e0e6be939c.lua"))()
+    	end
+})
+local Button = Tab:CreateButton({
 	Name = "COPY DISCORD",
 	Description = nil, 
     	Callback = function()
