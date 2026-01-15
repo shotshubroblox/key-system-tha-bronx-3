@@ -55,10 +55,10 @@ local Button = Tab:CreateButton({
     	end
 })
 local Button = Tab:CreateButton({
-	Name = "MM2 Worse",
+	Name = "Operation One",
 	Description = nil, 
     	Callback = function()
-      loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseBall024/MidNight/refs/heads/main/Operation%20One%20Midnight.o1"))()
     	end
 })
 local Button = Tab:CreateButton({
